@@ -4,6 +4,9 @@ import styles from "./Layout.module.css";
 export default function Layout({ children }) {
   return (
     <div>
+      <Head>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <ul className={styles.list}>
         <li>
           <Link href="/">Home</Link>
