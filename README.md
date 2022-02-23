@@ -1,5 +1,16 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Product features for a Hospital website
+Hospitals need a website to let people know that they are around. At a minimum, the website should have a home page that shows the location, working hours, a cover photo and maybe some client testimonials. Apart from the home page, the website also lists the doctors in the hospital. For each doctor, there will be a doctor detail page that show the availability of the doctor. The website should also have a page to book doctor appointments. The following list shows the list of pages in our hospital website.
+
+- / or Home page – has location, timings, photo, client testimonials,
+- /doctors – Doctors working in the hospital
+- /doctor/<slug> – More information about doctors and availability
+- /appointment – For booking appointments
+  
+ Inspired by : [NextJS for building SEO friendly, full stack app](https://vijayt.com/post/nextjs-for-building-seo-friendly-full-stack-app/)
+
+
 ## Getting Started
 
 First, run the development server:
